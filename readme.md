@@ -26,6 +26,7 @@ Slack Webhooks
 
 
 ## 📁 Project Structure
+```
 crypto_pipeline/
 ├── airflow/
 │   └── dags/
@@ -44,7 +45,7 @@ crypto_pipeline/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── .env
-
+```
 
 
 
