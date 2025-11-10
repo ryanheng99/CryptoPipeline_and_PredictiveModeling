@@ -1,4 +1,3 @@
-
 from datetime import datetime
 
 def fetch_binance_price(symbol="BTCUSDT"):
