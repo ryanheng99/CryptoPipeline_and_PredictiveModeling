@@ -1,5 +1,20 @@
+import requests
+import pandas as pd
+from datetime import datetime
+import time
+import logging
+from typing import Optional
 
- datetime import datetime
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+class BinanceAPIError(Exception):
+    """Custom exception for Binance API errors"""
+    pass
+
+from datetime import datetime
 
 def fetch_binance_price(
     symbol: str = "BTCUSDT",
