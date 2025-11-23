@@ -1,0 +1,5 @@
+venv
+.env
+__pycache__/
+init-db.sh
+docker-compose.yml
